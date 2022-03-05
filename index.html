@@ -6,21 +6,23 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./style.css">
+  <script src="./index.js"></script>
   <title>Random MEME</title>
 </head>
 
 <body>
   <div class="container">
     <div class="meme-container">
-      <img class="random-image"
-        src="https://preview.redd.it/rxoi2mifsjl81.jpg?width=320&crop=smart&auto=webp&s=816abde7dbe96a0392d9355043ba87eb3d776504"
+      <img id="random-image" src="https://preview.redd.it/rxoi2mifsjl81.jpg?width=320&crop=smart&auto=webp&s=816abde7dbe96a0392d9355043ba87eb3d776504"
         alt="random meme from reddit">
     </div>
     <div class="button-container">
-      <button class="btn">NEW MEME</button>
+      <button class="btn" onclick="newMEME()">NEW MEME</button>
     </div>
-    <script src="./index.js"></script>
   </div>
+
+
+
 </body>
 
 </html>

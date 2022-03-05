@@ -11,8 +11,10 @@ body {
   flex-direction: column;
 }
 
-.random-image {
+#random-image {
   border-radius: 15px;
+  width: 326px;
+  height: 372px;
 }
 
 .btn {
@@ -27,35 +29,35 @@ body {
 }
 
 @media screen and (min-width: 600px) and (max-width: 900px) {
-  .random-image {
+  #random-image {
     color: #ffffff;
     background-color: #ff0000;
     font-weight: bold;
-    width: 35rem;
-    height: auto;
+    width: 562px;
+    height: 645px;
   }
 
   .btn {
     width: 14rem;
-    border-radius: 8px;
+    border-radius: 15px;
     height: 5rem;
     font-size: 24px;
   }
 }
 
 @media screen and (min-width: 1000px) {
-  .random-image {
+  #random-image {
     color: #ffffff;
     background-color: #ff0000;
     font-weight: bold;
-    width: 30rem;
-    height: auto;
+    width: 562px;
+    height: 645px;
   }
 
   .btn {
-    width: 8rem;
-    border-radius: 8px;
+    width: 10rem;
+    border-radius: 15px;
     height: 3rem;
-    font-size: 18px;
+    font-size: 24px;
   }
 }
