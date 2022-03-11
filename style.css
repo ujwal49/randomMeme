@@ -20,8 +20,8 @@ body {
 .btn {
   color: #ffffff;
   background-color: #ff0000;
-  width: 8rem;
-  height: 3rem;
+  width: 320px;
+  height: auto;
   font-weight: bold;
   font-size: 14px;
   border-radius: 8px;
