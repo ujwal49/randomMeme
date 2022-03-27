@@ -14,7 +14,7 @@ body {
 #random-image {
   border-radius: 15px;
   width: 326px;
-  height: 372px;
+  height: auto;
 }
 
 .btn {
@@ -34,7 +34,7 @@ body {
     background-color: #ff0000;
     font-weight: bold;
     width: 562px;
-    height: 645px;
+    height: auto;
   }
 
   .btn {
@@ -51,7 +51,7 @@ body {
     background-color: #ff0000;
     font-weight: bold;
     width: 562px;
-    height: 645px;
+    height: auto;
   }
 
   .btn {
