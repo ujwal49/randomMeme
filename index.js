@@ -2,7 +2,9 @@ function newMEME() {
   let image = document.getElementById("random-image");
   let oops = document.getElementById("oops");
   let para = document.getElementById("oops-para");
-
+  if (image.style.display == "none") {
+    image.style.display = "block";
+  }
   fetch("https://meme-api.herokuapp.com/gimme")
     .then((meme) => meme.json())
     .then((data) => {
